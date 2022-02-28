@@ -24,7 +24,7 @@ module.exports = {
     try {
       message.reply({
         embeds: [new MessageEmbed()
-        .setDescription("**Support Server**\n\n[HighQ Support](https://discord.gg/kWkrbdDp3U)\n\n**Invite Link Bot**\n\n[HighQ V1](https://discord.com/api/oauth2/authorize?client_id=911209808751890432&permissions=158913261558&scope=bot%20applications.commands)")
+        .setDescription("**Support Server**\n\n**I Will Add It On 20 Server Used\n\n**Invite Link Bot**\n\n[LN](https://discord.com/api/oauth2/authorize?client_id=911209808751890432&permissions=158913261558&scope=bot%20applications.commands)")
       .setFooter(ee.footertext, ee.footericon)
     .setTimestamp()
   .setColor(ee.color)] 

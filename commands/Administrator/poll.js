@@ -41,7 +41,7 @@ module.exports = {
         
         if (channel) {
             const embed =  new MessageEmbed()
-            .setTitle('HighQ Poll')
+            .setTitle('LN Poll')
             .setDescription(poll)
             .setThumbnail(message.guild.iconURL())
             .setColor(ee.color)

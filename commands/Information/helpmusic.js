@@ -9,7 +9,7 @@ module.exports = {
      * @param {Client} client
      */
     run: async(client , message , args) => {
-        message.channel.send('**COMING SOON** Lol Sorry :>')
+        
         if (args[0] === "cq") {
             message.reply({
                 embeds: [
@@ -184,7 +184,7 @@ module.exports = {
                                                             message.reply({
                                                                 embeds: [
                                                                     new MessageEmbed()
-                                                                    .setTitle('List Music Command')
+                                                                    .setTitle('**Coming Soon** Lol Hehe Sorry :>')
                                                                     .setDescription('`cq`,`filter`,`loop`,`nowplaying`,`pause`,`play`,`queue`,`resume`,`search`,`shuffle`,`skip`,`dc`,`volume`,`w-filters`\n\n**Type** `-helpmusic [music commands]` **to see information**')
                                                                     .setFooter(ee.footertext , ee.footericon)
                                                                     .setColor(ee.color)
