@@ -184,7 +184,7 @@ module.exports = {
                                                             message.reply({
                                                                 embeds: [
                                                                     new MessageEmbed()
-                                                                    .setTitle('**Coming Soon** Lol Hehe Sorry :>')
+                                                                    .setTitle('List Music Commands')
                                                                     .setDescription('`cq`,`filter`,`loop`,`nowplaying`,`pause`,`play`,`queue`,`resume`,`search`,`shuffle`,`skip`,`dc`,`volume`,`w-filters`\n\n**Type** `-helpmusic [music commands]` **to see information**')
                                                                     .setFooter(ee.footertext , ee.footericon)
                                                                     .setColor(ee.color)
