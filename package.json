@@ -25,6 +25,7 @@
     "@discordjs/builders": "^0.6.0",
     "@discordjs/opus": "^0.7.0",
     "colors": "^1.4.0",
+    "distube": "^2.8.15",
     "discord.js": "^13.4.0",
     "moment": "^2.29.1",
     "mongoose": "^6.1.2",

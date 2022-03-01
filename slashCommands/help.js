@@ -31,7 +31,7 @@ module.exports = {
           const embed = new MessageEmbed()
               .setColor(ee.color)
               .setThumbnail(client.user.displayAvatarURL())
-              .setTitle("HighQ List Command")
+              .setTitle("LN List Command")
               .setFooter(`To see command Descriptions and Information, type: -help [CMD NAME] , To See Music Command Type -helpmusic`, client.user.displayAvatarURL());
           const commands = (category) => {
               return client.commands.filter((cmd) => cmd.category === category).map((cmd) => `\`${cmd.name}\``);

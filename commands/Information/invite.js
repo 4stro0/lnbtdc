@@ -24,7 +24,7 @@ module.exports = {
     try {
       message.reply({
         embeds: [new MessageEmbed()
-        .setDescription("**Support Server**\n\n**`I Will Add It On 20 Server Used`\n\n**Invite Link Bot**\n\n[LN](https://discord.com/api/oauth2/authorize?client_id=946575283081859073&permissions=1249834954614&scope=bot%20applications.commands)")
+        .setDescription("**Support Server**\n\n`I Will Add It On 20 Server Used`\n\n**Invite Link Bot**\n\n[LN](https://discord.com/api/oauth2/authorize?client_id=946575283081859073&permissions=1249834954614&scope=bot%20applications.commands)")
       .setFooter(ee.footertext, ee.footericon)
     .setTimestamp()
   .setColor(ee.color)] 
