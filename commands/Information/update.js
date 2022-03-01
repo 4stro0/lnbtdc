@@ -11,6 +11,7 @@ module.exports = {
     run: async(client , message , args) => {
         message.reply({embeds : [new MessageEmbed()
         .setDescription('New Command `-helpmusic` , And Added The Music Command Check It Now! ')
+        .setColor(ee.color)
     ]})
     }
 }

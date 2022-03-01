@@ -65,8 +65,13 @@ module.exports = {
           .setLabel('Support Server')
           .setURL('https://discord.gg/kWkrbdDp3U')
 
+          message.reply({ 
+            embeds: [new MessageEmbed()
+            .setDescription('Yo bro I have New Update Type  `-update`')
+          .setColor(ee.color)
+        ]
+           })
           message.reply({embeds: [embed] });
-          message.reply('Yo bro I have New Update Type **-update**')
       }
     } catch (e) {
         console.log(String(e.stack).bgRed)
