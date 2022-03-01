@@ -47,7 +47,7 @@ module.exports = {
               .setColor(ee.color)
               .setThumbnail(client.user.displayAvatarURL())
               .setTitle("LN Help Commands")
-              .setFooter(`To see Commmand Information, type: ${prefix}help [CMD NAME] To See Music Command List Type \`-helpmusic\``, client.user.displayAvatarURL());
+              .setFooter(`To see Commmand Information, type: ${prefix}help [CMD NAME]`, client.user.displayAvatarURL());
           const commands = (category) => {
               return client.commands.filter((cmd) => cmd.category === category).map((cmd) => `\`${cmd.name}\``);
           };
@@ -66,6 +66,7 @@ module.exports = {
           .setURL('https://discord.gg/kWkrbdDp3U')
 
           message.reply({embeds: [embed] });
+          message.reply('Yo bro I have New Update Type **-update**')
       }
     } catch (e) {
         console.log(String(e.stack).bgRed)
