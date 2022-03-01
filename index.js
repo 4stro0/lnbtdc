@@ -41,9 +41,6 @@ const client = new Discord.Client({
 });
 client.distube = new DisTube(client, {
   youtubeCookie: process.env.COOKIE,
-  requestOptions: {
-      agent
-  },
   searchSongs: true,
   emitNewSongOnly: true,
   highWaterMark: 1024 * 1024 * 64,
