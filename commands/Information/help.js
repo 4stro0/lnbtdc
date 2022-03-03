@@ -67,7 +67,7 @@ module.exports = {
 
           message.reply({ 
             embeds: [new MessageEmbed()
-            .setDescription('Yo bro I have New Update Type  `-update`')
+            .setDescription('Updated Something Run `-update`')
           .setColor(ee.color)
         ]
            })
